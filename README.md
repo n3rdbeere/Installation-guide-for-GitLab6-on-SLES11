@@ -8,6 +8,8 @@ https://github.com/gitlabhq/gitlabhq/blob/master/doc/install/installation.md
 Install needed Packages and Dependencies
 ----------------------------------------
 
+You need the SDK Repository to make a clean install. Be sure you have added this one.
+
 run as root
 
 ```
