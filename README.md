@@ -40,7 +40,7 @@ wget ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
 tar xfvz ruby-2.0.0-p247.tar.gz
 cd ruby-2.0.0-p247
 
-This takes some time
+		This will take some time
 
 ./configure && make && make install
 
@@ -51,11 +51,11 @@ build libxslt from hand:
 
 
 ```
-	wget ftp://xmlsoft.org/libxml2/libxslt-1.1.28.tar.gz
-	tar xfvz libxslt-1.1.28.tar.gz
-	cd libxslt-1.1.28/
-	./configure --prefix=/usr
-	make && make install
+wget ftp://xmlsoft.org/libxml2/libxslt-1.1.28.tar.gz
+tar xfvz libxslt-1.1.28.tar.gz
+cd libxslt-1.1.28/
+./configure --prefix=/usr
+make && make install
 
 ```
 
@@ -271,7 +271,7 @@ bundle install --deployment --without development test postgres aws
 
 start redis as daemon via 
 ```
-	redis-server &
+redis-server &
 ```
 Set up Gitlab
 -------------
