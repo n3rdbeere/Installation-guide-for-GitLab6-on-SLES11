@@ -458,4 +458,8 @@ replace default nginx user by user git and group root, in /etc/nginx/nginx.conf
 #user nginx:
 user git root;
 ```
-=============================
+
+Restart nginx
+```
+sudo /etc/init.d/nginx restart
+```
